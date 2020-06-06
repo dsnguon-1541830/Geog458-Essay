@@ -61,10 +61,10 @@ The code of the project starts off with linking to the storymap library:
 This code snippet is what allows the entire project to work seemlessly within itself. It creates the storymap library from the bootstrap and leaflet libraries which allow the storymap to be made. The leaflet libraries it uses help to create the interactive maps of the project while the bootstrap libraries help to create the template of the website. This Storymap libary already comes with supported responsive design which allows most devices to view the website of the project without issue.
 
 ## Data Sources and Web Elements
-![WHO](assets/WHO.png)
+![WHO](assets/WHO.PNG)
 The data used in this project was acquired from the World Health organization's own dashboard about Tuberculosis. The website shows how Tuberculosis affects each country and the funding each country puts in to combat the disease.
 
-![GIS](assets/GIS.png)
+![GIS](assets/GIS.PNG)
 This data was then converted into Geospatial data represented by chloropeth maps to show the disparity of values in each map. The basemap used for these maps is CartoDB's Positron basemap because it is a grayscale basemap capable of easily showing the color-coded data of chloropeth maps. Each country is color-coded on a graduating scale to show that the darker colors represent the higher values of the data the map represents.
 
 The map elements found in the website only consist of a legend for each map and an info page button and a Github button. The legend is personalized for each map depending on the data scale and the buttons in the top-left corner are designed to allow the visitor access to the website's info and the github repository.
